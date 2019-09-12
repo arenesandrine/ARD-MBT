@@ -1,0 +1,29 @@
+# Model Based Testing, modéliser le fonctionnement d'une machine à café
+
+## Objectifs :
+
+*Comprendre le fonctionnement du logiciel
+*appliquer les bonnes pratiques du MBT
+*première approche de la notion de couverture
+
+## Challenge
+
+### Modéliser le fonctionne d'un distributeur de boissons
+
+Spécifications fonctionnelles
+
+* Profil : client lambda ou étudiant
+* Boissons chaude ou boissons fraiche
+* Boissons fraiches : eau ou soda ou boisson étudiante (accessible qu'au étudiant)
+* Boissons chaudes thé ou café,
+* Sucre ou pas de sucre, uniquement si boisson chaudes
+* Lait ou pas de lait, uniquement pour le thé
+* Paiement, soit par CB soit en espèce
+* Paiement par CB, code pin ou sans contact
+* Paiement espèce : avec retour monnaie
+
+### Critères de validation
+
+* Modèle comporte toutes les fonctionnalités de la machine
+* Le modèle est clair, lisible et permet une validation de la couverture aisée
+* Utilisation de sous-processus
